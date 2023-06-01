@@ -12,3 +12,13 @@ development: npm run start:dev
 
 아래는 API test를 위한 postman link입니다.
 postman link : https://documenter.getpostman.com/view/11067871/2s93mBvdZ1
+
+
+### Folder Strcuture
+- src
+  - o-embed : oembed controller, service가 내장된 module입니다.
+  - interface : response/request format 혹은 factory와 같은 형식을 관리하는 폴더입니다.
+  - util : class 로 처리하는 것이 아닌, function 형태의 기능들을 모은 폴더입니다.
+  - interceptor : nest interceptor 기능 정리 폴더입니다.
+  - filter : nest filter 기능 정리 폴더입니다.
+  - enum : enum 관리 폴더입니다.
